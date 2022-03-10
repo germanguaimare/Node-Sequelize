@@ -1,6 +1,6 @@
 import app from 'express'
 
-import HomeController from '../controllers/home_controller'
+import HomeController from '../controllers/home_controller.mjs'
 
 const routes = app.Router()
 
