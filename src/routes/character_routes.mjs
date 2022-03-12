@@ -7,6 +7,6 @@ const routes = app.Router()
 
 routes.get('/:N', new CharacterController().index)
 routes.post('/', new CharacterController().create)
-routes.post('/show', new CharacterController().show)
+routes.get('/find/:name', new CharacterController().show)
 
 export default routes
